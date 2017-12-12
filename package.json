@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/budi1200/electron_tutorial/issues"
   },
-  "homepage": "https://github.com/budi1200/electron_tutorial#readme"
+  "homepage": "https://github.com/budi1200/electron_tutorial#readme",
+  "devDependencies": {
+    "electron-packager": "^10.1.0"
+  }
 }
