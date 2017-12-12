@@ -1,5 +1,6 @@
 {
   "name": "electron_tutorial",
+  "productName": "Electron tutorial app",
   "version": "1.0.0",
   "description": "electron tutorial",
   "main": "index.js",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/budi1200/electron_tutorial#readme",
   "devDependencies": {
+    "electron": "^1.7.9",
     "electron-packager": "^10.1.0"
   }
 }
