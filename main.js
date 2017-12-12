@@ -1,8 +1,9 @@
+//video link --https://www.youtube.com/watch?v=kN1Czs0m1SU
 const electron = require('electron');
 const url = require('url');
 const path = require('path');
 
-const {app, BrowserWindow} = electron;
+const {app, BrowserWindow, Menu} = electron;
 
 let mainWindow;
 
@@ -16,4 +17,17 @@ app.on('ready', function(){
         protocol:'file:',
         slashes: true
     }));
+
+    //build menu from template
+    const mainMenu = Menu.buildFromTemplate(mainMenuTemplate);
+    //Insert menu
+    Menu.setApplicationMenu(mainMenu);
 });
+
+
+//Create menu template
+const mainMenuTemplate = [
+    {
+        label:'File'
+    }
+];
