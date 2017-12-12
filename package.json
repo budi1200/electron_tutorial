@@ -1,0 +1,22 @@
+{
+  "name": "electron_tutorial",
+  "version": "1.0.0",
+  "description": "electron tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/budi1200/electron_tutorial.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "David Aristovnik & Alen Budimir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/budi1200/electron_tutorial/issues"
+  },
+  "homepage": "https://github.com/budi1200/electron_tutorial#readme"
+}
