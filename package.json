@@ -1,25 +1,14 @@
 {
-  "name": "electron_tutorial",
-  "productName": "Electron tutorial app",
+  "name": "electron_test",
   "version": "1.0.0",
-  "description": "electron tutorial",
-  "main": "index.js",
+  "description": "electron test app",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/budi1200/electron_tutorial.git"
-  },
-  "keywords": [
-    "electron"
-  ],
   "author": "David Aristovnik & Alen Budimir",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/budi1200/electron_tutorial/issues"
-  },
-  "homepage": "https://github.com/budi1200/electron_tutorial#readme",
+  "dependencies": {},
   "devDependencies": {
     "electron": "^1.7.9",
     "electron-packager": "^10.1.0"
