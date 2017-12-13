@@ -2,3 +2,25 @@ body
 {
     background-color: #424242;
 }
+.header-list-item
+{
+    display: inline-flex;
+
+}
+.header-list-item:first-child
+{
+    justify-content: flex-start;
+}
+.header-list-item a
+{
+    text-decoration: none;
+    color: darkcyan;
+    font-size: 1.2em;
+    align-items: flex-end;
+}
+#header
+{
+    display: flex;
+    background-color: lightgray;
+    justify-content: flex-end;
+}
