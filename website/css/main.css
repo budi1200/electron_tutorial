@@ -1,6 +1,7 @@
 body
 {
     background-color: #424242;
+    margin: 0;
 }
 .header-list-item
 {
@@ -20,7 +21,18 @@ body
 }
 #header
 {
+    padding: 0 20px;
     display: flex;
     background-color: lightgray;
-    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.header-inner{
+    margin: 20px 0;
+}
+.header-inner a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
 }
