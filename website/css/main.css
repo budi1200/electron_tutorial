@@ -2,6 +2,7 @@ body
 {
     background-color: #424242;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 .header-list-item
 {
@@ -31,8 +32,9 @@ body
     margin: 20px 0;
 }
 .header-inner a{
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
     color: white;
     padding: 0 10px;
+    font-weight: 600;
 }
