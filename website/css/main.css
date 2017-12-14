@@ -61,7 +61,19 @@ nav a:hover{
     color: #74B1BE;
 }
 
-#guts{
-    color: white;
+<<<<<<< HEAD
+#intro
+{
+    color: #74B1BE;
+}
+
+#main-content
+{
+    text-align: center;
+}
+
+#guts
+{
+    color: #c1c6bf;
     font-size: 1em;
 }
