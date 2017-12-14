@@ -28,7 +28,7 @@ body
 }
 
 #header-image{
-    max-width: 20%;
+    max-width: 15%;
     margin: 10px 0;
 }
 nav{
@@ -41,12 +41,15 @@ nav a{
     padding-right: 2px;
     padding-left: 2px;
     font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: 0.45s;
 
 }
-nav a:hover{
-    background-color: rgba(255,255,255,0.2);
 
+nav a:hover {
+	border-bottom: solid 2px #74B1BE;
 }
+
 #page-wrap{
     margin: 0 20px;
 }
