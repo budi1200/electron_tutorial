@@ -60,3 +60,8 @@ nav a:hover{
     text-decoration: none;
     color: #74B1BE;
 }
+
+#guts{
+    color: white;
+    font-size: 1em;
+}
