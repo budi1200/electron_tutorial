@@ -61,7 +61,6 @@ nav a:hover{
     color: #74B1BE;
 }
 
-<<<<<<< HEAD
 #intro
 {
     color: #74B1BE;
@@ -76,4 +75,9 @@ nav a:hover{
 {
     color: #c1c6bf;
     font-size: 1em;
+}
+
+span#naslov1
+{
+    font-size: 200%;
 }
