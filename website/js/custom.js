@@ -1,5 +1,5 @@
 function buttonClick(id) {
-    var al = $('a');
+    var al = $("#nav_buttons a");
     al.css("color", '#74B1BE');
     al.css("border-bottom", "");
     var el = document.getElementById(id);
