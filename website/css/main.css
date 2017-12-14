@@ -54,3 +54,9 @@ nav a:hover{
 .selected{
     color: lightseagreen; !IMPORTANT
 }
+
+#watchvideo
+{
+    text-decoration: none;
+    color: #74B1BE;
+}
