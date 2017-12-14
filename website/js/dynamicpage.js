@@ -23,7 +23,7 @@ $(function() {
                 .find("#guts")
                 .fadeOut(200, function() {
                     $mainContent.hide().load(newHash + " #guts", function() {
-                        $mainContent.fadeIn(200, function() {
+                        $mainContent.fadeIn(500, function() {
                             $pageWrap.animate({
                                 height: baseHeight + $mainContent.height() + "px"
                             });

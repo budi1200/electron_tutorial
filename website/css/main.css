@@ -61,6 +61,7 @@ nav a:hover{
     color: #74B1BE;
 }
 
+<<<<<<< HEAD
 #intro
 {
     color: #74B1BE;
@@ -74,4 +75,10 @@ span
 #main-content
 {
     text-align: center;
+}
+
+#guts
+{
+    color: white;
+    font-size: 1em;
 }
