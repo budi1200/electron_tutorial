@@ -31,3 +31,26 @@ body
     max-width: 20%;
     margin: 10px 0;
 }
+nav{
+    border-bottom: 1px solid #74B1BE;
+    padding: 10px 0;
+}
+nav a{
+    text-decoration: none;
+    color: #74B1BE;
+    padding-right: 2px;
+    padding-left: 2px;
+    font-weight: bold;
+
+}
+nav a:hover{
+    background-color: rgba(255,255,255,0.2);
+
+}
+#page-wrap{
+    margin: 0 20px;
+}
+
+.selected{
+    color: lightseagreen; !IMPORTANT
+}
