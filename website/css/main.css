@@ -60,3 +60,18 @@ nav a:hover{
     text-decoration: none;
     color: #74B1BE;
 }
+
+#intro
+{
+    color: #74B1BE;
+}
+
+span
+{
+    font-size: 200%;
+}
+
+#main-content
+{
+    text-align: center;
+}
