@@ -46,3 +46,11 @@
 h2{
     color: #c1caaf;
 }
+
+.codesnippet
+{
+    align-content: center;
+    padding: 20px 0px;
+    width: 80%;
+    background-color: #1c1e15;
+}
