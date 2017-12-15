@@ -1,5 +1,6 @@
 #guts{
     padding-bottom: 20px;
+    margin: 0 12%;
 }
 .main-text
 {
@@ -30,6 +31,7 @@
 }
 
 .button{
+    margin: 1%;
     text-decoration: none;
     color: #0D4A59;
     background-color: #F2F2F2;
@@ -49,8 +51,15 @@ h2{
 
 .codesnippet
 {
-    align-content: center;
-    padding: 20px 0px;
-    width: 80%;
+    color: #9feaf9;
+    margin-left: 5%;
+    padding: 10px;
+    width: 800px;
     background-color: #1c1e15;
+    text-align: left;
+    border: 1px solid #111218;
+}
+
+#button_wrap{
+    margin: 1%;
 }
