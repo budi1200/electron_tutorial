@@ -25,6 +25,10 @@
    display: none;
 }
 
+#tutorial1_3{
+    display: none;
+}
+
 .button{
     text-decoration: none;
     color: #0D4A59;
