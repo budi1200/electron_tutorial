@@ -5,7 +5,7 @@ body
     font-family: 'Open Sans', sans-serif;
 }
 
-#header
+.header
 {
     padding: 0 20px;
     display: flex;
@@ -20,7 +20,7 @@ body
     margin: 20px 0;
 }
 
-.header-inner a{
+.header_button{
     font-size: 16px;
     text-decoration: none;
     color: #74B1BE;
@@ -92,12 +92,7 @@ span#naslov1
     font-size: 200%;
 }
 
-#vodic-button{
-    color: lightseagreen;
-    border-bottom: 2px solid lightseagreen;
-}
-
-#domov-button{
+.underline_button{
     color: lightseagreen;
     border-bottom: 2px solid lightseagreen;
 }
