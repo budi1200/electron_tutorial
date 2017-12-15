@@ -1,3 +1,5 @@
+var id = 1;
+
 function buttonClick(id) {
     var al = $("#nav_buttons a");
     al.css("color", '#74B1BE');
@@ -7,7 +9,7 @@ function buttonClick(id) {
     el.style.borderBottom = "2px solid lightseagreen";
 }
 
-function next(id){
+function next(){
     var a = document.getElementById("tutorial1_" + id);
     a.style.display = "none";
     id++;
