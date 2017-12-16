@@ -14,5 +14,11 @@ function next(){
     a.style.display = "none";
     id++;
     var b = document.getElementById("tutorial1_" + id);
+
+    if(b == null){
+        console.log('null');
+        $('#button_wrap').css('display', 'none');
+        $('#button_naprej').css('display', 'block');
+    }
     b.style.display = "block";
 }

@@ -40,7 +40,7 @@
     border: 2px solid transparent;
 }
 
-#next:hover{
+.next:hover{
     font-size: 14px;
     border: 2px solid #0D4A59;
 }
@@ -62,4 +62,8 @@ h2{
 
 #button_wrap{
     margin: 1%;
+}
+
+#button_naprej{
+    display: none;
 }
