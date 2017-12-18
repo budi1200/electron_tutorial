@@ -28,6 +28,7 @@ $(function() {
                                 height: baseHeight + $mainContent.height() + "px"
                             });
                         });
+                        id = 1;
                         $("nav a").removeClass("current");
                         $("nav a[href='"+newHash+"']").addClass("current");
                     });

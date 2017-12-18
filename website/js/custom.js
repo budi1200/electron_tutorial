@@ -19,6 +19,8 @@ function next(){
         console.log('null');
         $('#button_wrap').css('display', 'none');
         $('#button_naprej').css('display', 'block');
+        id=1;
+    }else{
+        b.style.display = "block";
     }
-    b.style.display = "block";
 }
