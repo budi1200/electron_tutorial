@@ -14,18 +14,14 @@ function next()
     {
         var a = document.getElementById("tutorial1_" + id);
         a.style.display = "none";
-        id = id + 2;
+        id++;
         var b = document.getElementById("tutorial1_" + id);
+        var c = id+1;
 
-        if(b == null)
-        {
-            console.log('null');
+        if(document.getElementById("tutorial1_" + c) == null){
             $('#button_wrap').css('display', 'none');
             $('#button_naprej').css('display', 'block');
-            id=1;
         }
-        else
-        {
-            b.style.display = "block";
-        }
+
+        b.style.display = "block";
     }
