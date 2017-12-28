@@ -14,7 +14,7 @@ function next()
     {
         var a = document.getElementById("tutorial1_" + id);
         a.style.display = "none";
-        id++;
+        id = id + 2;
         var b = document.getElementById("tutorial1_" + id);
 
         if(b == null)

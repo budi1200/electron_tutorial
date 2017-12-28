@@ -25,7 +25,7 @@
 
                     <div id="tutorial1_2">
                     <p class="main-text">
-                        Za tem bomo prenesli izvajalnik JavaScript <a id="link_tukaj" href="https://nodejs.org/en/">NodeJS</a>.<br>
+                        Za tem bomo prenesli izvajalnik JavaScript <a target="_blank" id="link_tukaj" href="https://nodejs.org/en/">NodeJS</a>.<br>
                     <img id="tutorial_image" src="img/tutorialimage2.jpg" alt="IMG1" width="600">
                     </p>
                     </div>
@@ -55,8 +55,36 @@
                     </div>
                     <div id="tutorial1_4">
                         <p class="main-text">
-                            Ta komanda bo v mapi "nakupovalnivozicek" ustvrila datoteko ".json" z imenom "package".<br>
+                            Ta komanda bo v mapi "nakupovalnivozicek" ustvrila datoteko ".json" z imenom "package".
+                        </p>
+                        <img src="img/dir_package_json.jpg" alt="DIR-JSON">
+                        <p>
                             Odprite jo z željenim programom (npr.: Notepad, Notepad ++, VS Code...).
+                            Izgledati bi morala nekako tako:
+                        </p>
+                            <br><br>
+                            <img src="img/package-json-content.jpg" alt="PACKAGE-JSON"><br>
+                        <p class="main-text">
+                            Spremenimo linijo "scripts" kot kaže na sliki:
+                        </p>
+                        <img src="img/package-json-content-post.jpg" alt="PACKAGE-JSON-POST">
+                    </div>
+                    <div id="tutorial1_5">
+                        <p>
+                            Nato vpišite naslednjo komando:
+                        </p>
+                        <div class="codesnippet">
+                            <code>
+                            $ npm install --save electron
+                            </code>
+                        </div>
+                        <p class="main-text">
+                            Izgledati bi moralo tako in lahko traja tudi do 15 minut (ne prekini procesa).
+                        </p>
+                        <img src="img/npm_electron.jpg" alt="NPM-ELECTRON">
+                        <p id="main-text">
+                            Nato lahko zapremo datoteko "package.json" in komandno okno.<br>
+                            In to je konec namestitve okolja electron.
                         </p>
                     </div>
                     <div id="clear"></div>
