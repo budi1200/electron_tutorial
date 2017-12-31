@@ -86,6 +86,7 @@ h2
 #button_naprej
 {
     display: none;
+    text-align: center;
 }
 
 .actionsnip

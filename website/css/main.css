@@ -38,7 +38,7 @@ body
     max-width: 15%;
     margin: 10px 0;
 }
-nav{
+#nav_buttons{
     border-bottom: 1px solid #74B1BE;
     padding: 10px 0;
 }
