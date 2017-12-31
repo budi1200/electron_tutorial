@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="css/tutorial.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/modernizr.js"></script>
         <script type='text/javascript' src="js/dynamicpage.js"></script>
         <script src="js/custom.js" type="text/javascript"></script>
     </head>
@@ -21,26 +22,20 @@
             </div>
         </div>
         <div id="page-wrap">
-           <header>
             <nav id="nav_buttons">
-                <a id="vaja1" onclick="buttonClick('vaja1')" href="tutorial1.html">Namestitev Okolja</a>
-                <a id="vaja2" onclick="buttonClick('vaja2')" href="tutorial2.html">Vaja 2</a>
-                <a id="vaja3" onclick="buttonClick('vaja3')" href="tutorial3.html">Vaja 3</a>
-                <a id="vaja4" onclick="buttonClick('vaja4')" href="tutorial4.html">Vaja 4</a>
-                <a id="vaja5" onclick="buttonClick('vaja5')" href="tutorial5.html">Vaja 5</a>
-                <a id="vaja6" onclick="buttonClick('vaja6')" href="tutorial6.html">Vaja 6</a>
+                <a id="tutorial1"  href="tutorial1.html">Namestitev Okolja</a>
+                <a id="tutorial2"  href="tutorial2.html">Vaja 2</a>
+                <a id="tutorial3" onclick="buttonClick('tutorial3')" href="tutorial3.html">Vaja 3</a>
+                <a id="tutorial4" onclick="buttonClick('tutorial4')" href="tutorial4.html">Vaja 4</a>
+                <a id="tutorial5" onclick="buttonClick('tutorial5')" href="tutorial5.html">Vaja 5</a>
+                <a id="tutorial6" onclick="buttonClick('tutorial6')" href="tutorial6.html">Vaja 6</a>
             </nav>
-            </header>
             <section id="main-content">
-                <div id="guts">
-
-                </div>
+                <div id="guts"></div>
             </section>
-            <header>
             <nav>
-            <div id="button_naprej"><a id="naprej" onclick="" class="button next" href="tutorial2.html">Naslednja Vaja</a></div>
-                </nav>
-            </header>
+                <div id="button_naprej"><a id="naprej" onclick="" class="button next" href="tutorial2.html">Naslednja Vaja</a></div>
+            </nav>
         </div>
 
     </body>

@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="css/tutorial.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/modernizr.js"></script>
         <script type='text/javascript' src="js/dynamicpage.js"></script>
     </head>
     <body>
@@ -93,7 +94,9 @@
                     </div>
 
                     <div id="clear"></div>
-                    <div id="button_wrap"><a class="button next" onclick="next()" href="#">Naprej</a></div>
+                    <div id="button_wrap"><!--<a class="button next" onclick="next()" href="#">Naprej</a>-->
+                        <button class="button_b next" onclick="next()">Naprej</button>
+                    </div>
                 </div>
             </section>
         </div>

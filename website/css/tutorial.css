@@ -113,3 +113,14 @@ h2
 {
     clear: both;
 }
+
+.button_b{
+    margin: 1%;
+    text-decoration: none;
+    color: #0D4A59;
+    background-color: #F2F2F2;
+    padding: 5px 10px;
+    transition: all 0.4s;
+    border: 2px solid transparent;
+    font-size: 16px;
+}
