@@ -15,11 +15,69 @@
                 <div id="guts">
                     <h1>2. del - Vodič</h1>
                     <h2>Delo z okoljem Electron</h2>
-                    <div id="tutorial1_1">
-                        <p class="main-text">
 
+                    <div id="tutorial2_1">
+                        <p class="main-text">
+                            Ta del vodiča pričakuje, da imate že postavljeno okolje electron. Če nimate pojdite <a href="tutorial1.html">sem</a>.<br><br>
+                            Prvo bomo v mapi "nakupovalnivozicek" ustvarili novo datoteko ".js" z imenom "main".
                         </p>
+                        <p class="main-text">
+                            Zdaj bomo v ustvarjeno datoteko na začetku definirali tri spremenljivke oz. glavne module, ki so potrebni za delovanje programa.
+                        </p>
+                        <div class="codesnippet">
+                                <code>
+                                $ const electron = require('electron');<br>
+                                $ const url = require('url');<br>
+                                $ const path = require('path');<br>
+                            </code>
+                        </div>
+                        <br>
+                        <p class="main-text">
+                            Nato bomo vzeli nekaj stvari oz. objektov z electron-a.<br>To storimo z naslednjo vrstico. V njej imamo objekt "app" in objekt "BrowserWindow", ki jih vzamemo iz electron-a, ki je definiran na vrhu datoteke.
+                        </p>
+                        <div class="codesnippet">
+                            <code>
+                                $ const {app, BrowserWindow} = electron;
+                            </code>
+                        </div>
+                        <br>
+                        <p class="main-text">
+                            Za konec definicij pa imamo še spremenljivko, ki bo upravljala z glavnim oknom.
+                        </p>
+                        <div class="codesnippet">
+                            <code>
+                                $ let mainWindow;
+                            </code>
+                        </div>
                     </div>
+
+                    <div id="tutorial2_2">
+                        <p class="main-text">
+                            V okolju electron moramo poslušati da bo aplikacija pripravljena. To naredimo z naslednjo vrstico kode:
+                        </p>
+                        <div class="codesnippet">
+                            <code>
+                                $ app.on('ready'), function(){<br>$ <br>$ });
+                            </code>
+                        </div>
+                        <p class="main-text">
+                            Zdaj bomo znotraj te funkcije ustvarili osnovo glavnega okna.
+                        </p>
+                            <div class="codesnippet">
+                                <code>
+                                    $ //Ustvarimo novo okno<br>
+                                    $ mainWindow = new BrowserWindow({});<br>
+                                    $ //Naložimo html v okno<br>
+                                    $ mainWindow.loadURL(url.format({<br>
+                                    $ pathname: path.join(__dirname, 'mainWindow.html'),<br>
+                                    $ protocol:'file:',<br>
+                                    $ slashes: true
+                                </code>
+                            </div>
+                    </div>
+
+                    <div id="button_naprej"><a id="naprej" onclick="" class="button next" href="tutorial2.html">Naslednja Vaja</a></div>
+                    <div id="button_wrap"><a class="button next" onclick="next()" href="#">Naprej</a></div>
                 </div>
             </section>
         </div>
