@@ -3,10 +3,12 @@ var id = 1;
 function buttonClick(id)
     {
         var al = $("#nav_buttons a");
-        al.css("color", '#74B1BE');
+        al.css("color", "");
+        al.css("padding-bottom", "");
         al.css("border-bottom", "");
         var el = document.getElementById(id);
         el.style.color = "#20B2AA";
+        el.style.paddingBottom = "10px";
         el.style.borderBottom = "2px solid lightseagreen";
     }
 
@@ -25,3 +27,10 @@ function next()
 
         b.style.display = "block";
     }
+
+function reset_page(){
+    id = 1;
+    console.log("reset");
+    $("#button_naprej").css("display", "none");
+
+}

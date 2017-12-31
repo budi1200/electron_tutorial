@@ -39,7 +39,7 @@ body
     margin: 10px 0;
 }
 #nav_buttons{
-    border-bottom: 1px solid #74B1BE;
+    border-bottom: 2px solid #74B1BE;
     padding: 10px 0;
 }
 nav a{
@@ -47,6 +47,7 @@ nav a{
     color: #74B1BE;
     padding-right: 2px;
     padding-left: 2px;
+    padding-bottom: 10px;
     font-weight: bold;
     border-bottom: 2px solid transparent;
     transition: 0.45s;
@@ -54,6 +55,7 @@ nav a{
 }
 
 nav a:hover {
+    padding-bottom: 0px;
 	border-bottom: solid 2px #74B1BE;
 }
 

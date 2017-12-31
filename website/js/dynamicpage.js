@@ -34,6 +34,7 @@ $(function() {
                         var lin = href.slice(0, -5);
                         console.log(lin);
                         buttonClick(lin);
+                        reset_page();
                         $('nav a[href$="+href+"]').addClass("current");
                     });
                 });
