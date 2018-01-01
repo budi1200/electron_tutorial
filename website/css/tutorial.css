@@ -110,7 +110,7 @@ h2
     float: right;
 }
 
-#clear
+.clear
 {
     clear: both;
 }
@@ -136,4 +136,10 @@ span.unselect
     -o-user-select: none;
     user-select: none;
     cursor: default;
+}
+
+#npm-test1
+{
+    float: left;
+    padding-left: 10%;
 }

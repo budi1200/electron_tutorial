@@ -64,19 +64,33 @@
                         <p class="main-text">
                             Zdaj bomo znotraj te funkcije ustvarili osnovo glavnega okna.
                         </p>
-                            <div class="codesnippet">
-                                <code>
-                                    <span class="unselect">$ </span>//Ustvarimo novo okno<br>
-                                    <span class="unselect">$ </span>mainWindow = new BrowserWindow({});<br>
-                                    <span class="unselect">$ </span>//Naložimo html v okno<br>
-                                    <span class="unselect">$ </span>mainWindow.loadURL(url.format({<br>
-                                    <span class="unselect">$ </span>pathname: path.join(__dirname, 'mainWindow.html'),<br>
-                                    <span class="unselect">$ </span>protocol:'file:',<br>
-                                    <span class="unselect">$ </span>slashes: true
-                                </code>
-                            </div>
+                        <div class="codesnippet">
+                            <code>
+                                <span class="unselect">$ </span>//Ustvarimo novo okno<br>
+                                <span class="unselect">$ </span>mainWindow = new BrowserWindow({});<br>
+                                <span class="unselect">$ </span>//Naložimo html v okno<br>
+                                <span class="unselect">$ </span>mainWindow.loadURL(url.format({<br>
+                                <span class="unselect">$ </span>pathname: path.join(__dirname, 'mainWindow.html'),<br>
+                                <span class="unselect">$ </span>protocol:'file:',<br>
+                                <span class="unselect">$ </span>slashes: true
+                            </code>
+                        </div>
+                        <p class="main-text">
+                            Zdaj lahko zaženemo electron aplikacijo z izvajanjem naslednje komande:
+                        </p>
+                        <div class="codesnippet">
+                            <code>
+                                <span class="unselect">$ </span>npm start
+                            </code>
+                        </div>
+                        <p class="main-text">
+                            Izgledati bi moralo približno tako.
+                        </p>
+                        <img id="npm-test1" src="img/npm-start-test.jpg" alt="npm-test1">
+                        <div class="clear"></div>
+                        <br>
                     </div>
-
+                    <div class="clear"></div>
                     <div id="button_naprej"><a id="naprej" onclick="" class="button next" href="tutorial2.html">Naslednja Vaja</a></div>
                     <div id="button_wrap"><a class="button next" onclick="next()" href="#">Naprej</a></div>
                 </div>
