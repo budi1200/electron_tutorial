@@ -41,3 +41,11 @@ function reset_page(){
     $("#button_naprej").css("display", "none");
 
 }
+$(document).ready(function(){
+
+$("#naprej").on("click", function() {
+    var next_vaja = parseInt(current)+1;
+    $("#naprej").attr("href", "tutorial" + next_vaja + ".html");
+});
+
+});
