@@ -99,6 +99,9 @@ span#naslov1
     border-bottom: 2px solid lightseagreen;
 }
 
+#naprej:hover{
+    padding-bottom: 5px;
+}
 section#main-content
 {
 
