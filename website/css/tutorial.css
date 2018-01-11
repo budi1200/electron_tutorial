@@ -57,7 +57,7 @@ h2
 
 #button_wrap
 {
-    margin: 1%;
+    margin: 2%;
 }
 
 #button_naprej
@@ -79,11 +79,13 @@ h2
 {
     text-align: left;
     float: left;
+    margin-left: 10%;
 }
 
 #npm_init
 {
-    float: right;
+    float: left;
+    margin-left: 20px;
 }
 
 .clear
@@ -118,4 +120,8 @@ span.unselect
 {
     float: left;
     padding-left: 10%;
+}
+
+.cc{
+    color: #719fad;
 }
